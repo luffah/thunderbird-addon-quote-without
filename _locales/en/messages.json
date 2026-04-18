@@ -1,0 +1,23 @@
+{
+    "extensionName": {
+        "message": "Quote without .."
+    },
+    "extensionDescription": {
+        "message": "Reply with quote without useless things (strip off images, signatures or old messages)."
+    },
+    "STRIPPING_OFF_IMAGES": {
+        "message": "Reply stripping off the inline images"
+    },
+    "STRIPPING_OFF_IMAGES_ALL": {
+        "message": "Stripping off all images (web included)"
+    },
+    "STRIPPING_OFF_IMAGES_ATTACHED": {
+        "message": "Stripping off all images files"
+    },
+    "STRIPPING_OFF_OLD_REPLIES": {
+        "message": "Reply stripping off old replies from level"
+    },
+    "STRIPPING_OFF_SIGNATURES": {
+        "message": "Reply stripping off signature"
+    }
+}

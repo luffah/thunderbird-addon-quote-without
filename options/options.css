@@ -1,0 +1,22 @@
+html,
+body {
+    background-color: var(--color-gray-10);
+}
+
+body {
+    margin: 1em;
+}
+
+.hbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+[aria-hidden="true"] {
+    display: none;
+}
+
+[aria-hidden="false"] {
+    display: block;
+}

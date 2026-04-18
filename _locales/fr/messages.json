@@ -1,0 +1,23 @@
+{
+    "extensionName": {
+        "message": "Citer sans .."
+    },
+    "extensionDescription": {
+        "message": "Répondre en citant le message précédent sans éléments superflu (retire les images, les signatures, ou des anciens messages)"
+    },
+    "STRIPPING_OFF_IMAGES": {
+        "message": "Répondre en retirant les images incorporés"
+    },
+    "STRIPPING_OFF_IMAGES_ALL": {
+        "message": "Retirer toutes les images (web incluses) incorporées"
+    },
+    "STRIPPING_OFF_IMAGES_ATTACHED": {
+        "message": "Retirer les fichiers images incorporés"
+    },
+    "STRIPPING_OFF_OLD_REPLIES": {
+        "message": "Répondre en retirant les anciennes réponses à partir du niveau "
+    },
+    "STRIPPING_OFF_SIGNATURES": {
+        "message": "Répondre en retirant les signatures"
+    }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Reply With Quote Without - Settings</title>
+        <link rel="stylesheet" href="options.css">
+        <script src="options.js" type="module"></script>
+    </head>
+
+    <body>
+        <div class="hbox">
+            <input type="checkbox" id="OffImg" data-preference="addons.quote.without.images.enable" />
+            <label for="OffImg" >STRIPPING_OFF_IMAGES</label>
+            <br>
+            <fieldset data-type="radiogroup">
+                <div>
+                    <input type="radio" name="OffImages" id="OffImgAttach" data-preference="addons.quote.without.images.radio.attach"/>
+                    <label for="OffImgAttach">STRIPPING_OFF_IMAGES_ATTACHED</label>
+                </div>
+                <div>
+                    <input type="radio" name="OffImages" id="OffImgAll" data-preference="addons.quote.without.images.radio.all"/>
+                    <label for="OffImgAll">STRIPPING_OFF_IMAGES_ALL</label>
+                </div>
+            </fieldset>
+        </div>
+        <div class="hbox">
+            <input type="checkbox" id="OffSig" data-preference="addons.quote.without.signature_in_replies.enable"/>
+            <label for="OffSig">STRIPPING_OFF_SIGNATURES</label>
+        </div>
+        <div class="hbox">
+            <input type="checkbox" id="OffOldReplies" data-preference="addons.quote.without.old_replies.enable"/>
+            <label for="OffOldReplies">STRIPPING_OFF_OLD_REPLIES</label>
+            <br>
+            <div style="float:right">
+                <input type="number" min="1" max="30" data-preference="addons.quote.without.old_replies.level"/>
+            </div>
+        </div>
+    </body>
+
+</html>
